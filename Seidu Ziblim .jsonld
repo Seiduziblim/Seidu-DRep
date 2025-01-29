@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Seidu Ziblim ",
+    "motivations": "My journey within the Cardano ecosystem has been centered around governance, education, and community-building. Through my active involvement in the CIP-1694 governance working group and leadership in the Cardano Ghana community, I have gained valuable insights into the importance of decentralized decision-making. As a strong advocate for blockchain education, I am committed to ensuring that more professionals and students in Africa and beyond have access to quality blockchain knowledge.\n\nBecoming a DRep will enable me to further amplify these efforts by ensuring that governance decisions are made in a way that benefits the entire community. I am motivated by the opportunity to represent stakeholders fairly, drive transparent governance, and support proposals that align with Cardano’s mission of financial inclusion and decentralization. With my background and dedication, I am ready to serve as a trusted voice for the community.",
+    "objectives": "1.\tPromote Inclusive and Decentralized Governance\nAdvocate for broad community participation in Cardano governance by ensuring fair representation of diverse stakeholders, particularly in Africa, through CIP-1694 and related initiatives.\n2.\tEnhance Transparency and Accountability in Governance\nSupport governance decisions that prioritize transparency, accountability, and decentralization, ensuring that DReps act in the best interests of the ecosystem and the global Cardano community.\n3.\tFoster Growth of the Cardano Community in Ghana and Beyond\nLeverage local engagement efforts, such as the Cardano Ghana community, to drive awareness, onboarding, and active participation in governance, governance voting, and ecosystem initiatives.\n4.\tChampion Sustainable and Impactful Proposals\nEvaluate and support proposals that align with Cardano’s long-term vision for scalability, interoperability, and financial inclusion, ensuring that governance decisions lead to real-world impact.",
+    "paymentAddress": "addr1qxama9t3f73qjtwf34ya7gwym9p7q2rd9fd5ark5ewytclakqphx5j5kdh25zf7gjezvpnw7529ztx20mehhwmugjr3qjhzkh7",
+    "qualifications": "I hold bachelor’s degree in economics, CBCA and have extensive experience in blockchain governance, community leadership, and education. My expertise allows me to assess governance proposals critically, ensuring that decisions align with Cardano’s mission of financial inclusion and decentralization. ",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "X (Twitter) ",
+        "uri": "https://x.com/seiduziblim "
+      },
+      {
+        "@type": "Link",
+        "label": "Telegram ",
+        "uri": "https://t.me/seiduz "
+      },
+      {
+        "@type": "Link",
+        "label": "Github ",
+        "uri": "https://github.com/Seiduziblim/Seidu "
+      },
+      {
+        "@type": "Link",
+        "label": "Linkedin",
+        "uri": "www.linkedin.com/in/seidu-ziblim-abu-544326172 "
+      },
+      {
+        "@type": "Identity",
+        "label": "Cardano Forum ",
+        "uri": "https://forum.cardano.org/u/seiduziblim/summary "
+      },
+      {
+        "@type": "Identity",
+        "label": "X (Twitter) ",
+        "uri": "https://x.com/seiduziblim"
+      }
+    ]
+  }
+}
